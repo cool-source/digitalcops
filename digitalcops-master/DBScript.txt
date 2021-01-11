@@ -1,0 +1,8 @@
+create database digitalcops;
+use digitalcops;
+
+create table users(id INT AUTO_INCREMENT PRIMARY KEY, user_name VARCHAR(150), name VARCHAR(150), user_type VARCHAR(80), email VARCHAR(150), mobile VARCHAR(14), password VARCHAR(30), last_modify_by VARCHAR(40), last_modify_date DATETIME);
+
+insert into users(user_name,name, user_type, email, mobile, password, last_modify_by) values ('kishan', 'Kishan Badal', 'ADMIN', 'kishan.badal@gmail.com', '7017478535','admin123' , 'AK12018');
+
+
